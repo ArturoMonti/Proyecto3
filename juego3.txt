@@ -1,0 +1,35 @@
+#include <vector>
+#include <windows.h>
+#include <cstdio>
+#include <cstdlib>
+#include <iostream>
+#include <conio.h>
+#include <string>
+
+// Simbolos o Caracteres
+#define CARACTER_FANTASMA 2
+
+// Movimiento con las teclas
+#define TECLA_ARRIBA       'i'
+#define TECLA_ABAJO        'k'
+#define TECLA_IZQUIERDA    'j'
+#define TECLA_DERECHA      'l'
+
+// Dirección de pacman
+#define DIRECCION_IZQUIERDA 0
+#define DIRECCION_DERECHA   1
+#define DIRECCION_ARRIBA    2
+#define DIRECCION_ABAJO     3
+#define DIRECCION_INVALIDA  -1
+
+
+// Define los colores
+#define COLOR_PARED            0x009 // AZUL CLARO
+#define COLOR_COMIDA           0x00F // BLANCO BRILLANTE
+#define COLOR_PACMAN           0x00E // AMARILLO
+#define COLOR_FANTASMA1        0x00C // ROJO CLARO
+#define COLOR_FANTASMA2        0x00D  // PÚRPURA CLARO
+#define COLOR_FANTASMA3        0x00B // AGUAMARINA CLARO
+#define COLOR_FANTASMA4        0x00A // VERDE CLARO
+#define COLOR_MARCADOR         0x00F   // BLANCO_BRILLANTE
+#define COLOR_FANTASMA_ZOMBIE  0x004 // AZUL
