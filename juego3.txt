@@ -26,10 +26,11 @@
 // Define los colores
 #define COLOR_PARED            0x009 // AZUL CLARO
 #define COLOR_COMIDA           0x00F // BLANCO BRILLANTE
-#define COLOR_PACMAN           0x00E // AMARILLO
-#define COLOR_FANTASMA1        0x00C // ROJO CLARO
-#define COLOR_FANTASMA2        0x00D  // PÚRPURA CLARO
-#define COLOR_FANTASMA3        0x00B // AGUAMARINA CLARO
-#define COLOR_FANTASMA4        0x00A // VERDE CLARO
-#define COLOR_MARCADOR         0x00F   // BLANCO_BRILLANTE
-#define COLOR_FANTASMA_ZOMBIE  0x004 // AZUL
+vrsbvarsgbv
+erbdtn
+bst
+nyf
+ngumfmkmn
+bsdvt
+bsdtydnimoiuyhtgrafrstdnfg
+
