@@ -1,0 +1,47 @@
+include <iostream>
+#include <windows.h>
+#include <stdlib.h>
+#include <conio.h>
+#include <time.h>
+ 
+using namespace std;
+ 
+void gotoxy(int x, int y){
+        HANDLE hCon;
+        hCon=GetStdHandle(STD_OUTPUT_HANDLE);
+        
+        COORD dwPos;
+        dwPos.X=x;
+        dwPos.Y=y;
+        SetConsoleCursorPosition(hCon,dwPos);
+}
+ 
+class Snake{
+        public:
+                int x,y;
+                int dx,dy;
+                char cuerpo;
+};
+ 
+class Fruta{
+        public:
+                int x,y;
+                char cuerpo=254;
+};
+ 
+class Juego{
+        public:
+                void main();
+        private:
+                int score,nivel,velocidad;
+                Snake snake[100];
+                Fruta fruta;
+                int tam=4;
+                int c=21,f=64;
+                bool gameover=false;
+                void tablero();
+                //void inicio();
+                void genFruta();
+                void genSnake();
+                void loop();
+                void tecla();
