@@ -1,0 +1,53 @@
+#include<iostream.h>
+
+ 
+
+char gato[3][3];
+
+bool bandera=true;
+
+//===PROTOTIPOS===
+
+void imprimegato();
+
+void cambiaturno(char &t);
+
+void introduce(char t, char corden);
+
+short evalua(char t);
+
+main()
+
+{
+
+imprimegato();
+
+char t='X';
+
+char posicion;
+
+ 
+
+ while(bandera==true)
+
+ {
+
+   cout<<"Es el turno de "<<t<<" introduzca posicion: ";
+
+   cin>>posicion;
+
+   posicion=toupper(posicion);
+
+   introduce(t,posicion);
+
+ 
+
+  // comprueba(turno);
+
+evalua(t);
+
+cambiaturno(t);
+
+   imprimegato();
+
+  }
